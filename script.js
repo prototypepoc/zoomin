@@ -4,6 +4,7 @@ window.onload = function() {
 
   var circle = document.createElement('div');
   circle.id = 'circle';
+  circle.style.display = 'none';
   document.body.appendChild(circle);
 
   var zoomedImg = imgElement.cloneNode();
